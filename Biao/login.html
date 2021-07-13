@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>客户登录</title>
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/common.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/header.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/customer-login-register.css" media="all" />
+    <script type="text/javascript" src="static/js/jquery-1.12.1.min.js"></script>
+
+    <style type="text/css">
+        .auto-style1 {
+            left: -96px;
+            top: -484px;
+        }
+        .group ul li{
+            position:relative;
+        }
+       .group ul li a:hover{
+			display: block;
+			text-decoration: none;
+		}
+        .group ul li ul{		
+			position:absolute; 
+			display:none;
+            background-color:white;
+            top:40px;
+		}
+        .group ul li ul li{
+			float: none;
+            width:100%;
+            text-align:center;
+            border:none;      
+		}
+		 .group ul li ul li a{
+			color: black;
+            width:100%;
+            text-align:center;
+			background: white;
+		}
+		 .group ul li ul li a:hover{
+			color:yellow;
+            width:100%;
+			background:none;
+		}
+		 .group ul li:hover ul{
+			display: block;
+		}
+    </style>
+
+
+</head>
+
+<body class="customer-account-login">
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-menu-container">
+                <div class="logo">
+                    <div class="d_options col-md-10 hidden-xs hidden-sm">
+                        <ul>
+                            <li>
+                                <div class="suggest-search-word">
+                                    <dl></dl>
+                                </div>
+
+                            </li>
+                            <li class="header-top-links-myaccount">
+                                <i class="icon-account"></i>
+                                <asp:HyperLink ID="hlkLoginMsg" runat="server" class="margin-right-20"></asp:HyperLink>
+       <asp:HyperLink ID="hlkLoginAgain" runat="server" class="margin-right-20">换个账号</asp:HyperLink>         
+                            </li>
+                            <li class="isRed dropdown heder-mini-cart-wrapper">
+
+                                <i class="icon-empty-cart"></i>
+                                <a rel="nofollow"  href="ShopCart.aspx">
+                                    购物车 <span class="shopping-cart-qty">
+                                    </span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="site-header-logo" href ="index.aspx">
+                        <img src="static/picture/logo.png"  class="v-middle" />
+                    </a>
+                </div>
+
+
+                <div class="menu pc_no-gutter hidden-xs hidden-sm">
+                    <div class="group-container">
+                        <div class="group on-line">
+                            <ul class="text-uppercase">
+                                <li class="homepage">
+                                    <a href="">首页</a>
+                                </li>
+                                <li class="category-first nav-minute2">
+                                    <a href="Products.aspx">
+                                        <span>购买手表</span>
+                                    </a>
+                                    <ul>
+				                        <li><a href="Products.aspx">所有腕表</a></li>
+                                        <li><a href="Products.aspx">新品腕表</a></li>
+                                        <li><a href="Products.aspx">情侣对表</a></li>
+                                        <li><a href="Products.aspx">畅销腕表</a></li>
+				                        <li><a href="Products.aspx">机械表</a></li>
+				                        <li><a href="Products.aspx">石英表</a></li>
+				                        <li><a href="Products.aspx">钢带表</a></li>
+				                        <li><a href="Products.aspx">皮带表</a></li>
+                                         <li><a href="Products.aspx">橡胶表带</a></li>
+                                        <li><a href="Products.aspx">尼龙表带</a></li>
+			                        </ul>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_129">
+                                        <b>官网推荐</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_134">
+                                        <b>男士</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_142">
+                                        <b>女士</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_63">
+                                        <b>产品分类</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_150">
+                                        <b>场合</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_158">
+                                        <b>功能</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_161">
+                                        <b>价格区间</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="group group-item-tissot-category">
+                            <ul class="text-uppercase">
+                                <li class="tissot-zone is-bordered">
+                                    <a>
+                                        <b>品牌专区</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="tissot-area-service is-bordered">
+                                    <a>
+                                        <b>客户服务</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="search-store">
+                                    <a class="auto-style1">查询实体店铺</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container col1-layout">
+            <div class="main">
+                <div class="col-main">
+                    <h1 style="display: none">用户登录</h1>
+                    <div class="container-fluid">
+                        <div class="info">
+
+                            </div>
+                        </div>
+                        <div class="account-login login container" style="height:500px;">
+                            <form 
+                                 class="scaffold-form"  runat="server">
+                                <input name="form_key" type="hidden" value="9PmqND0Nb6xVHLIp" />
+                                <div class="col2-set">
+                                    <div class="col-2 registered-users col-sm-6 account">
+                                        <div class="content fieldset">
+                                            <h2>用户登录</h2>
+                                            <ul class="form-list">
+                                                <li>
+                                                    <label for="input_mobile_phone"
+                                                        class="required">用户名<em>*</em></label>
+                                                    <div class="input-box">
+                                                        <input type="text" placehoder="请输入您的用户名">
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label for="pass" class="required">登录密码<em>*</em></label>
+                                                    <div class="input-box">
+                                                        <input type="text" placehoder="请输入您的密码">
+                                                    </div>
+                                                </li>
+                                                <li class="forget">
+                                                    <label class="hidden-xs"></label>
+                                                    <div class="forget-text">
+                                                        *为必填项 <a class="f-left">忘记密码？</a>
+                                                    </div>
+                                                </li>
+                                                <li class="buttons-set">
+                                                    <a title="帐户" class="button" href="index.html"><span><span>登录帐户</span></span></a>
+                                                </li>
+                                                <li>
+                                                    <label class="hidden-xs"></label>
+
+                                                </li>
+                                                <li class="visible-xs-block login-hr"> &nbsp;</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-1 new-users col-sm-6 reg">
+                                        <div class="content">
+                                            <h2>创建一个新账户</h2>
+                                            <p class="form-instructions">通过加入天梭，能为您带来：</p>
+                                            <ul class="benefits">
+                                                <li>
+                                                    <i>&gt;</i>更快速结账过程 </li>
+                                                <li>
+                                                    <i>&gt;</i>拥有多个送货地址 </li>
+                                                <li>
+                                                    <i>&gt;</i>全程跟踪您的订单状态 </li>
+                                            </ul>
+                                        </div>
+                                        <div class="buttons-set">
+                                            <a title="创建帐户" class="button" href="register.html"><span><span>创建帐户</span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+
+        </div>
+
+
+        <div class="subfooter">
+            <div class="container">
+                <div class="logos col-xs-12 col-md-4">
+                    <img class="tissot" src="static/picture/logo-footer.png" alt="Logo Tissot">
+                    <img class="swatchgroup" src="static/picture/logo-swatchgroup.png" alt="Logo Swatch Groupe">
+                </div>
+                <div class="shop-infos col-xs-12 col-md-8">
+                    <ul class="pull-right">
+                        <li>
+                            <i class="ic-swiss-flag"></i>
+                            <a>瑞士制造</a>
+                        </li>
+                        <li>
+                            <i class="ic-warranty"></i>
+                            <a>官方保修</a>
+                        </li>
+                        <li>
+                            <i class="pngicon ic-returns"></i>
+                            <a>轻松退换</a>
+                        </li>
+                        <li>
+                            <i class="ic-securized"></i>
+                            <a>信息安全</a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="business-license-text">
+                        <a href="javascript:void(0)" >查看营业执照</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="text-uppercase text-center">
+                    <p>&copy; 21084390120赵增喜</p>
+                    <p class="address_code" style="margin:0">
+                        沪ICP备 16030460号-6<br>
+                        <img src="static/picture/beian_icon.png" alt="公安机关备案" />公安机关备案号 31010102004684
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="back_to_top" style="display: none"></div>
+
+
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天天生鲜—登录</title>
+	<link rel="shortcut icon" type="text/css" href="images/logo.png">
+	<style type="text/css">
+		/*清除默认样式*/
+		*{
+			margin: 0 auto;
+			padding: 0;
+		}
+		/*清除a标签默认下划线*/
+		a{
+			text-decoration: none;
+		}
+		/*清除列表默认样式*/
+		ul li{
+			list-style: none;
+		}
+		/*浮动*/
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		/*清除浮动*/
+		.clearfix::before,afterfix:after{
+			content: "";
+			display: table;
+		}
+		.afterfix:after{
+			clear: both;
+		}
+		.clearfix{
+			zoom: 1;
+		}
+		/*版心设置 960px...*/
+		/*logo区域*/
+		.logo_top{
+			width: 960px;
+			height: 130px;
+			background-color: pink;
+		}
+		.login_logo{
+			display: block;
+			width: 193px;
+			height: 76px;
+			margin: 0;
+			padding: 30px;
+		}
+		/*中间登录区域*/
+		.login_form_bg{
+			width: 960px;
+			background-color: skyblue;
+			height: 730px;
+		}
+		.login_form_wrap{
+			width: 960px;
+		}
+		.login_banner{
+			width: 381px;
+			height: 322px;
+			background:url(images/login_banner.png) no-repeat;
+			margin: 80px 0 0 50px;
+		}
+		/*主旨*/
+		.slogn{
+			width: 40px;
+			height: 300px;
+			font-size: 30px;
+			color:#FFF;
+			text-align: center;
+			margin: 60px 0 0 50px;
+		}
+		/*表单区域*/
+		.login_form{
+			width: 380px;
+			height: 380px;
+			background-color: #FFF;
+			margin-top: 50px;
+			position: relative;
+			
+		}
+		.login_title{
+			width: 308px;
+			height: 60px;
+			margin: 10px auto;
+			border-bottom: 1px solid #E0E0E0;
+
+		}
+		.login_title h1{
+			font-size: 30px;
+			color: #9D9D9D;
+			height: 60px;
+			line-height: 60px;
+			margin-left: 35px;
+		}
+		.login_title a{
+			display: block;
+			width: 100px;
+			height: 20px;
+			color: #5FB42A;
+			background:url(images/icon02.png) no-repeat;
+			background-position: 0 5px;
+			text-indent: 25px;
+			margin: 20px 0 0 25px;
+
+		}
+		.form_input{
+			width: 308px;
+			height: 250px;
+			margin-top: 10px;
+		}
+		.form_input ul li{
+			margin-bottom: 18px;
+		}
+		.name_input,.pwd_input,.yzm_input{
+			width: 306px;
+			
+		}
+
+
+		/*尾部版权*/
+		.footer{
+			width: 960px;
+			background-color: greenyellow;
+		}
+	</style>
+</head>
+<body>
+	<!--划块、布局、样式-->
+
+	<!--logo 区域-->
+	<div class="logo_top">
+		<a href="#" class="logo_top">
+			<img src="images/logo02.png">
+		</a>
+	</div>
+
+	<!--登录区域-->
+	<div class="login_form_bg">
+		<div class="login_form_wrap clearfix">
+			<div class="login_banner f1"></div>
+			<div class="slogn f1">日夜兼程 极速送达</div>
+			<div class="login_form fr">
+				<div class="login_title">
+					<h1 class="f1">用户登录</h1>
+					<a href="register.html" class="fr">立即注册</a>
+				</div>
+				<!-- 登录表单 -->
+				<div class="form_input">
+					<form action="index.html">
+						<ul>
+							<li>
+								<input type="text" placehoder="请输入您的用户名" name="nickname" class="name_input">
+							</li>
+							<li>
+								<input type="password" placehoder="请输入您的密码" name="pwd" class="pwd_input">
+							</li>
+							<li>
+								<input type="text" placehoder="请输入您的验证码" name="yzm" class="yzm_input">
+								<img src="images/yzm" alt="" class="code">
+							</li>
+							<li>
+								<div class="more_input">
+									<input type="checkbox">
+									<label for="">记住用户名</label>
+									<a href="#">忘记密码</a>
+								</div>
+							</li>
+							<li>
+								<input type="submit" value="登录" class="submit_input">
+							</li>
+						</ul>
+					</form>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<!--尾部版权-->
+	<div class="footer">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘广告</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+			<p>CopyRight &copy;2021 衡阳源辰信息科技有限公司 All Rights Reservered</p>	
+			<p>电话：0734-8355998 湘ICP备1015987号</p>
+		</div>
+		
+	</div>
+</body>
+</html>

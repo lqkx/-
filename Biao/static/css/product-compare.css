@@ -1,0 +1,40 @@
+﻿.messages{text-align:center;padding:10px}
+.product-compare-wrapper h1{font-size:20px;border-left:1px solid #e4141d;padding:2px 20px;margin:30px 0}
+.product-compare-wrapper h1 span{font-size:16px;color:#999}
+#product_comparison{border:1px solid #dfdfdf;text-align:center;vertical-align:middle;margin:30px 0 50px;width:100%}
+#product_comparison th{background:#f1f1f1;width:100px;text-align:center;font-size:15px;font-weight:400;border:1px solid #dfdfdf;padding:10px}
+#product_comparison td{padding:1%;color:#666;border:1px solid #dfdfdf}
+#product_comparison td img{max-width:100%}
+#product_comparison td h2{font-size:16px;word-break:break-all}
+#product_comparison td h2 a{color:#666}
+#product_comparison td .row{max-width:310px;margin:0 auto}
+#product_comparison td .row .col-md-6{padding:0 6px}
+#product_comparison td .price{font-size:16px;color:#e4141d}
+#product_comparison td .price-wrapper{position:relative}
+#product_comparison td .btn-remove{color:#999;margin-top:2px;text-decoration:underline;text-align:right;position:absolute;right:0;top:0}
+.product-compare-wrapper-sidebar-bottom-box{display:none}
+.product-compare-wrapper-sidebar{position:fixed;bottom:0;left:0;padding:2px 0 12px;border-top:1px solid #ddd;background:#fff;width:100%;z-index:19;box-shadow:0 2px 3px 2px #666}
+.product-compare-wrapper-sidebar h3{font-size:16px;border-left:1px solid #e4141d;padding:2px 20px;margin:20px 0}
+.product-compare-wrapper-sidebar h3 span{font-size:14px;color:#999}
+.product-compare-wrapper-sidebar ol li{padding:1% 0;color:#666;border:1px solid #dfdfdf;margin:0 1% 0 0;width:20%;float:left}
+.product-compare-wrapper-sidebar .actions-item{width:auto;border:0;text-align:center;float:left;margin:30px 10px}
+.product-compare-wrapper-sidebar a.btn-red{border:0;display:block;margin:15px auto 5px;color:#fff;background:#e4141d;padding:0;height:35px;font-size:14px;width:120px;line-height:35px}
+.product-compare-wrapper-sidebar a.btn-clear-all{font-size:14px;color:#999;text-decoration:underline}
+.product-compare-wrapper-sidebar img{max-width:100%}
+.product-compare-wrapper-sidebar h2{font-size:14px;margin:10px 0;height:45px;overflow:hidden;word-break:break-all}
+.product-compare-wrapper-sidebar h2 a{color:#666}
+.product-compare-wrapper-sidebar .price-wrapper,.product-compare-wrapper-sidebar .product-price{padding:0 15px 0 0}
+.product-compare-wrapper-sidebar .price{font-size:16px;color:#e4141d}
+.product-compare-wrapper-sidebar .btn-remove{color:#999;margin-top:2px;text-decoration:underline;text-align:right;font-size:14px;padding:0;cursor:pointer}
+.product-compare-wrapper-sidebar ul li{padding:1% 0;color:#666;border:1px solid #dfdfdf;margin:0 1% 0 0;width:19%;float:left;background:#f6f6f6;height:125px}
+.product-compare-wrapper-sidebar ul li span.number{background:#e3e3e3;width:32px;border-radius:16px;height:32px;line-height:32px;text-align:center;color:#fff;font-size:24px;float:right}
+.product-compare-wrapper-sidebar .continue-compare-text{padding:8px 0}
+.product-compare-wrapper-sidebar .continue-compare-item{padding:30px 0}
+.compare_box_close{background:url(../images/wechat_close.png) no-repeat;width:24px;height:24px;float:right;cursor:pointer}
+.watchShow ul li .img{position: relative}
+.hot-sale-icon{background:url("../images/hot_sale_icon.png") no-repeat;width: 45px;height: 56px;background-size: contain; position: absolute;left:0;top:0;color:#fff;font-size: 12px;line-height: 14px;padding-top: 9px;}
+.hot-sale-icon.new-product{padding-top: 16px}
+@media(min-width:768px){
+    .hot-sale-icon{width: 60px;height: 72px;font-size: 14px;line-height: 16px;padding-top: 16px;}
+    .hot-sale-icon.new-product{padding-top: 24px}
+}

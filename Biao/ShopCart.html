@@ -1,0 +1,380 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>客户登录</title>
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/common.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/header.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/customer-login-register.css" media="all" />
+    <script type="text/javascript" src="static/js/jquery-1.12.1.min.js"></script>
+
+    <style type="text/css">
+        .auto-style1 {
+            left: -96px;
+            top: -484px;
+        }
+    </style>
+    <style type="text/css">
+        body{font-family:微软雅黑;}
+        #contain{width:1000px;margin:0 auto;}
+        #nav{width:1000px;height:67px;border-bottom:4px solid #ccc;}
+        #nav #left{float:left;width:500px;}
+        #nav #right{float:right;width:256px;text-align:center;line-height:67px;}
+        #nav a{text-decoration:none;color:#ea66a6;}
+        #nav a:hover{color:#e0861a;}
+        #main{width:1000px;text-align:center;background-color:#fffef9;}
+        #tab{margin:0 auto;width:1000px;}
+        #tab th{height:39px;text-align:center;}
+        #tab tr{height:200px;border:none;border-bottom:1px solid black;}
+        #tab tr td{text-align:center;}
+        #tab .price{color:red;}
+        #tab .sumprice{color:red;}
+        #tab .txtNum{text-align:center; line-height:28px;color:red;}
+        #tab .btn{width:25px;height:25px;}
+        #tab .num{width:25px;height:28px;text-align:center;line-height:28px;color:red; }
+   
+    </style>
+    <style>
+        .group ul li{
+            position:relative;
+        }
+       .group ul li a:hover{
+			display: block;
+			text-decoration: none;
+		}
+        .group ul li ul{		
+			position:absolute; 
+			display:none;
+            background-color:white;
+            top:40px;
+
+		}
+        .group ul li ul li{
+			float: none;
+            width:100%;
+            text-align:center;
+            border:none;
+            
+		}
+		 .group ul li ul li a{
+			color: black;
+            width:100%;
+            text-align:center;
+			background: white;
+            
+		}
+		 .group ul li ul li a:hover{
+			color:yellow;
+            width:100%;
+			background:none;
+		}
+		 .group ul li:hover ul{
+			display: block;
+		}
+    </style>
+</head>
+<script>
+  window.onunload=function(){
+    if(event.clientX>document.body.clientWidth && event.clientY < 0 || event.altKey) //如果是关闭浏览器而不是刷新页面
+__doPostBack('closing',''); //触发一次提交
+  }
+
+</script>
+<body class="customer-account-login">
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-menu-container">
+                <div class="logo">
+                    <div class="d_options col-md-10 hidden-xs hidden-sm">
+                        <ul>
+                            <li>
+                                <div class="suggest-search-word">
+                                    <dl></dl>
+                                </div>
+
+                            </li>
+                            <li class="header-top-links-myaccount">
+                                <i class="icon-account"></i>
+                                <asp:HyperLink ID="hlkLoginMsg" runat="server" class="margin-right-20"></asp:HyperLink>
+       <asp:HyperLink ID="hlkLoginAgain" runat="server" class="margin-right-20">换个账号</asp:HyperLink>         
+                            </li>
+                            <li class="isRed dropdown heder-mini-cart-wrapper">
+
+                                <i class="icon-empty-cart"></i>
+                                <a rel="nofollow" href="ShopCart.aspx">
+                                    购物车 <span class="shopping-cart-qty">
+                                    </span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="site-header-logo" href ="index.aspx">
+                        <img src="static/picture/logo.png"  class="v-middle" />
+                    </a>
+                </div>
+
+
+                <div class="menu pc_no-gutter hidden-xs hidden-sm">
+                    <div class="group-container">
+                        <div class="group on-line">
+                            <ul class="text-uppercase">
+                                <li class="homepage">
+                                    <a href="">首页</a>
+                                </li>
+                                <li class="category-first nav-minute2">
+                                    <a href="Products.aspx">
+                                        <span>购买手表</span>
+                                    </a>
+                                    <ul>
+				                        <li><a href="Products.aspx">所有腕表</a></li>
+                                        <li><a href="Products.aspx">新品腕表</a></li>
+                                        <li><a href="Products.aspx">情侣对表</a></li>
+                                        <li><a href="Products.aspx">畅销腕表</a></li>
+				                        <li><a href="Products.aspx">机械表</a></li>
+				                        <li><a href="Products.aspx">石英表</a></li>
+				                        <li><a href="Products.aspx">钢带表</a></li>
+				                        <li><a href="Products.aspx">皮带表</a></li>
+                                         <li><a href="Products.aspx">橡胶表带</a></li>
+                                        <li><a href="Products.aspx">尼龙表带</a></li>
+			                        </ul>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_129">
+                                        <b>官网推荐</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_134">
+                                        <b>男士</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_142">
+                                        <b>女士</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_63">
+                                        <b>产品分类</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_150">
+                                        <b>场合</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_158">
+                                        <b>功能</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_161">
+                                        <b>价格区间</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="group group-item-tissot-category">
+                            <ul class="text-uppercase">
+                                <li class="tissot-zone is-bordered">
+                                    <a>
+                                        <b>品牌专区</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="tissot-area-service is-bordered">
+                                    <a>
+                                        <b>客户服务</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="search-store">
+                                    <a class="auto-style1">查询实体店铺</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+         <form id="form1" runat="server">
+    <div id="contain">
+        <div id="nav">
+            <div id="left"></div>
+            <br />
+            <div id="right"><a href="Products.aspx" style="font-size:20px;line-height:45px;">继续购物</a></div>
+            <br />
+        </div>
+
+        <div id="main">
+            <h2>我的购物车</h2><br />
+            <center>
+            <asp:Label ID="lblM" runat="server" ForeColor="#0099FF"></asp:Label>
+            <asp:Repeater ID="Repeater1" runat="server" EnableTheming="False"   >
+            <HeaderTemplate>
+                <asp:Label ID="lblM" runat="server" Text=""></asp:Label>
+                <table  id="tab" cellpadding="0" cellspacing="0" align="center" >
+                    <tr style="height:50px;">
+                        <span style="text-align:center;">
+                    <th>商品编号</th>
+                    <th>商品名称</th>
+                    <th>商品价格</th>
+                    <th>商品图片</th>
+                    <th>商品数量</th>
+                    <th>商品小计</th>
+                    <th>商品操作</th>
+                        </span>
+                        </tr>
+            </HeaderTemplate>
+                <ItemTemplate>
+                    <tr>
+                        <td><%# Eval("goodsID") %></td>
+                        <td><%# Eval("goodsName") %></td>
+                        <td class="price"><%# Eval("goodsPrice") %></td>
+                        <td><asp:Image ID="imgGoods" runat="server" ImageUrl='<%# "static/picture/"+ Eval("goodsImg") %>' Height="193px" Width="130px" /></td>
+                        <td>
+                            <input class="btnAdd" type="button" value="+" />
+                            <input  type="text" value="<%# Eval("carNum") %>" class="num"/>
+                            <input class="btnDel" type="button" value="-" />
+                        </td> 
+                        <td class="sumprice" style="font-size:26px;font-weight:bold;"><%# Eval("goodsSumPrice") %></td>
+                        <td><asp:Button ID="btnDel" runat="server" Text="删除"  OnClick="btnDel_Click"  class="button" style="width:100px;background:#f43434;height:38px;border:none;color:white;font-family:微软雅黑;" ToolTip='<%# Eval("goodsID") %>'/></asp:Button></td> 
+                </ItemTemplate>
+                <FooterTemplate>
+                      </tr>
+                    <tr>
+                        <td colspan="7" style="border:none;">
+                            <p align="right" style="margin-right:50px;">
+                           合计: <span style="color:red;font-size:20px;">￥<span id="sum">0.00</span></span>	
+
+                             <asp:Button ID="btnNum" runat="server" Text="结算"  BackColor="Red" BorderStyle="None"  Height="45" Width="180" ForeColor="White" Font-Size="16" />
+                        </p>
+                                </td>
+                    </tr>
+                    </table>
+
+                </FooterTemplate>
+            </asp:Repeater>
+                </center>
+            </div>
+        <div id="foot">
+        </div>
+        
+    </div>
+    </form>
+
+
+
+
+        <div class="footer">
+
+        </div>
+
+
+        <div class="subfooter">
+            <div class="container">
+                <div class="logos col-xs-12 col-md-4">
+                    <img class="tissot" src="static/picture/logo-footer.png" alt="Logo Tissot">
+                    <img class="swatchgroup" src="static/picture/logo-swatchgroup.png" alt="Logo Swatch Groupe">
+                </div>
+                <div class="shop-infos col-xs-12 col-md-8">
+                    <ul class="pull-right">
+                        <li>
+                            <i class="ic-swiss-flag"></i>
+                            <a>瑞士制造</a>
+                        </li>
+                        <li>
+                            <i class="ic-warranty"></i>
+                            <a>官方保修</a>
+                        </li>
+                        <li>
+                            <i class="pngicon ic-returns"></i>
+                            <a>轻松退换</a>
+                        </li>
+                        <li>
+                            <i class="ic-securized"></i>
+                            <a>信息安全</a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="business-license-text">
+                        <a href="javascript:void(0)" >查看营业执照</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="text-uppercase text-center">
+                    <p>&copy; 21084390120赵增喜</p>
+                    <p class="address_code" style="margin:0">
+                        沪ICP备 16030460号-6<br>
+                        <img src="static/picture/beian_icon.png" alt="公安机关备案" />公安机关备案号 31010102004684
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="back_to_top" style="display: none"></div>
+
+
+    </div>
+    </div>
+</body>
+<script>
+    $().ready(function (e) {
+        totgl();
+        $(".btnAdd").on('click', function () {
+            var textsum = 0;
+            var num = parseInt($(this).next().val());
+            num++;
+            $(this).next().val(num);
+            var money = parseInt($(this).closest('tr').find('.price').text());
+             textsum = num * money;
+            $(this).closest('tr').find('.sumprice').text(textsum);
+            totgl();
+        })
+        $(".btnDel").on('click', function () {
+              var num = parseInt($(this).prev().val());
+
+
+            if (!(num == 1)) {
+
+                num--;
+                $(this).prev().val(num);
+                var textsum = 0;
+                var money = parseInt($(this).closest('tr').find('.price').text());
+                  textsum = num * money;
+                $(this).closest('tr').find('.sumprice').text(textsum);
+            }
+            totgl();
+        })
+        function totgl() {
+            var coutss = 0;
+            var zongmoney = 0;
+            var list = $("table tr:not(:first)");
+            for (var i = 0; i < list.length-1; i++) {
+                var money = parseInt($(list[i]).find(".price").text());
+                var num = parseInt($(list[i]).find(".num").val());
+                zongmoney += money * num;
+            }
+            $("#sum").text(zongmoney);
+        }
+    });
+</script>
+</html>

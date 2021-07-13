@@ -1,0 +1,82 @@
+﻿#myCarousel .carousel-indicators{z-index:8}
+.carousel-inner>.item{background-color:#e9e8e6}
+#myCarousel img{display:block;margin:0 auto}
+.carousel-indicators .active,.carousel-indicators li{width:16px;height:16px;text-indent:-99999px}
+#myCarousel .item .wrap h2,#myCarousel .item .wrap h3{margin:0;font-weight:700}
+#myCarousel .item .wrap h2{font-size:48px}
+#myCarousel .item .wrap h3{margin-bottom:25px;font-size:54px}
+#myCarousel .item .wrap{position:absolute;top:50%;left:17%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
+.watch-list>div{position:relative;padding-left:0;padding-right:0;text-align:center}
+.watch-list>div>.col-xs-5{padding-left:0;padding-right:0;padding-top:30%;text-align:center}
+.watch-list>.visible-xs-block>.col-xs-7{padding:0 0 0 20px}
+.watch-list img{max-width:100%}
+.common-watch-list-1,.common-watch-list-2{overflow:hidden;border:1px solid #e6e6e6;background-color:#fff}
+.common-watch-list-1 .position-btm .border-title{bottom:30px;left:0;padding:0 15px;width:100%}
+.common-watch-list-1>div>.col-xs-12>.col-xs-5{padding-top:38%}
+.common-watch-list-1>div{max-height:558px}
+.common-watch-list-1 .border-title,.common-watch-list-2 .border-title{position:absolute}
+.common-watch-list-1 .position-left .border-title,.common-watch-list-1 .position-right .border-title,.common-watch-list-2 .position-left .border-title,.common-watch-list-2 .position-right .border-title{top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
+.common-watch-list-1 .position-left .border-title,.common-watch-list-1 .position-right .border-title,.common-watch-list-2 .position-left .border-title,.common-watch-list-2 .position-right .border-title{width:45%}
+.common-watch-list-1 .position-right .border-title,.common-watch-list-2 .position-right .border-title{right:0} 
+.common-watch-list-1 .position-left .border-title,.common-watch-list-2 .position-left .border-title{left:0}
+.lady-Selection-list{border:1px solid #e6e6e6}
+.mag{position:relative;padding-top:0;padding-bottom:0;margin-bottom:0;min-height:446px;background:url(../images/magazine_1920x1080_batiment.jpg) no-repeat center;background-size:cover;background-attachment:fixed;z-index:9999}
+.mag img{max-width:100%}
+.mag .wrap{position:absolute;bottom:23%;left:50%;padding:30px 50px;font-size:43px;color:#fff;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%)}
+.mag a{position:absolute;top:0;left:0;width:100%;z-index:1;height:100%;text-indent:-99999px}
+.mag .wrap h2,.mag .wrap p{margin:0}
+.mag .wrap h2{font-size:75px}
+.mag .wrap h2 mark{color:#e4161d;background-color:transparent}
+.mag .wrap .icon-Arrow-btm{position:absolute;bottom:15px;left:50%;width:25px;height:15px;background-position:-25px -61px;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%)}
+.Image-ambassador .col-md-3{padding:0 5px 0 5px;margin-bottom:120px}
+.Image-ambassador .col-md-3 .content{height:272px;color:#000;font-size:16px}
+.Image-ambassador .col-md-3 a{color:#fff}
+.Image-ambassador .col-md-3 .content .wrap{position:absolute;top:100%;left:0;padding:10px 15px 0 15px;width:100%;background:#fff;height:100px}
+.Image-ambassador a.content{position:relative;display:block}
+.Image-ambassador .item1 .content{background:url(../images/j-lorenzo-1.jpg) no-repeat center center;background-size:cover}
+.Image-ambassador .item2 .content{background:url(../images/image-ambassador-1.jpg) no-repeat center center;background-size:cover}
+.Image-ambassador .item3 .content{background:url(../images/image-ambassador-2.jpg) no-repeat center center;background-size:cover}
+.Image-ambassador .item4 .content{background:url(../images/image-ambassador-3.jpg) no-repeat center center;background-size:cover}
+.Image-ambassador .col-md-3 p{margin-bottom:0}
+.Image-ambassador .col-md-3 p:first-of-type{font-size:16px}
+.Image-ambassador .col-md-3 i{margin-right:5px}
+.Image-ambassador .col-xs-12{padding:30px 0;font-size:18px;margin-top:75px}
+.Image-ambassador .col-xs-12 i.icon-Arrow-btm{display:block!important;margin:5px auto 0;width:13px;height:8px;background-position:-48px -192px}
+@media (max-width:1600px){.mag .wrap{font-size:40px}
+    .mag .wrap h2{font-size:65px}
+}
+@media (max-width:1450px){#myCarousel .item .wrap{left:12%}
+    #myCarousel .item .wrap h2{font-size:40px}
+    #myCarousel .item .wrap h3{font-size:46px}
+    .mag .wrap h2{font-size:49px}
+}
+@media (max-width:1024px) and (min-width:768px){.mag .wrap{font-size:30px;bottom:28%}
+    .mag .wrap h2{font-size:40px}
+    .mag .wrap{-webkit-width:calc(44vw);-moz-width:calc(44vw);-ms-width:calc(44vw);-o-width:calc(44vw);width:calc(60vw)}
+    .Image-ambassador .col-xs-12{font-size:20px}
+}
+@media (max-width:991px){#myCarousel .item .wrap{left:5%}
+}
+@media (max-width:768px){.watch-list{width:100%}
+    .common-product-list .price{margin-bottom:0}
+    .common-product-list .nba-badge{top:30px;-webkit-width:calc(10vw);-moz-width:calc(10vw);-ms-width:calc(10vw);-o-width:calc(10vw);width:calc(10vw)}
+    .mag .wrap{-webkit-width:calc(60vw);-moz-width:calc(60vw);-ms-width:calc(60vw);-o-width:calc(60vw);width:calc(60vw)}
+    .Image-ambassador .col-md-3{margin-top:20px;padding-left:20px;padding-right:20px}
+    #myCarousel .item .wrap h2{font-size:30px}
+    #myCarousel .item .wrap h3{font-size:32px}
+    .mag .wrap .p2+p,.mag .wrap h2+p{margin-bottom:8px}
+}
+@media (max-width:767px){.mag{min-height:280px}
+    .mag .wrap{font-size:24px}
+    .mag .wrap h2{font-size:16px}
+    .mag .wrap{padding:20px 30px;-webkit-width:calc(44vw);-moz-width:calc(44vw);-ms-width:calc(44vw);-o-width:calc(44vw);width:calc(60vw)}
+    .Image-ambassador .col-xs-12{padding:30px 0;font-size:18px}
+}
+@media (max-width:600px){.mag .wrap{bottom:30%;font-size:16px}
+    #myCarousel .item .wrap h2{font-size:18px}
+    #myCarousel .item .wrap h3{margin-bottom:10px;font-size:20px}
+}
+@media (max-width:500px){.common-watch-list-1 .position-btm .border-title{bottom:5px}
+}
+@media (max-width:400px){.watch-list>div>.col-xs-5{padding-top:25%}
+}

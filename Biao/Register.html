@@ -1,0 +1,379 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>客户注册</title>
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/common.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/header.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="static/css/customer-login-register.css" media="all" />
+    <script type="text/javascript" src="static/js/jquery-1.12.1.min.js"></script>
+        <style>
+        .group ul li{
+            position:relative;
+        }
+       .group ul li a:hover{
+			display: block;
+			text-decoration: none;
+		}
+        .group ul li ul{		
+			position:absolute; 
+			display:none;
+            background-color:white;
+            top:40px;
+
+		}
+        .group ul li ul li{
+			float: none;
+            width:100%;
+            text-align:center;
+            border:none;
+            
+		}
+		 .group ul li ul li a{
+			color: black;
+            width:100%;
+            text-align:center;
+			background: white;
+            
+		}
+		 .group ul li ul li a:hover{
+			color:yellow;
+            width:100%;
+			background:none;
+		}
+		 .group ul li:hover ul{
+			display: block;
+		}
+    </style>
+</head>
+
+<body class=" customer-account-create">
+
+    <div class="wrapper">
+
+        <div class="header">
+            <div class="header-menu-container">
+                <div class="logo">
+                    <div class="d_options col-md-10 hidden-xs hidden-sm">
+                        <ul>
+                            <li>
+                                <div class="suggest-search-word">
+                                    <dl></dl>
+                                </div>
+
+                            </li>
+                            <li class="header-top-links-myaccount">
+                                <i class="icon-account"></i>
+                                  <asp:HyperLink ID="hlkLoginMsg" runat="server" class="margin-right-20"></asp:HyperLink>
+       <asp:HyperLink ID="hlkLoginAgain" runat="server" class="margin-right-20">换个账号</asp:HyperLink>         
+                            </li>
+                            <li class="isRed dropdown heder-mini-cart-wrapper">
+
+                                <i class="icon-empty-cart"></i>
+                                <a rel="nofollow"  href="ShopCart.aspx">
+                                    购物车 <span class="shopping-cart-qty">
+                                    </span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="site-header-logo" href ="index.aspx">
+                        <img src="static/picture/logo.png"  class="v-middle" />
+                    </a>
+                </div>
+
+
+                <div class="menu pc_no-gutter hidden-xs hidden-sm">
+                    <div class="group-container">
+                        <div class="group on-line">
+                            <ul class="text-uppercase">
+                                <li class="homepage">
+                                    <a href="">首页</a>
+                                </li>
+                                <li class="category-first nav-minute2">
+                                    <a href="Products.aspx">
+                                        <span>购买手表</span>
+                                    </a>
+                                    <ul>
+				                        <li><a href="Products.aspx">所有腕表</a></li>
+                                        <li><a href="Products.aspx">新品腕表</a></li>
+                                        <li><a href="Products.aspx">情侣对表</a></li>
+                                        <li><a href="Products.aspx">畅销腕表</a></li>
+				                        <li><a href="Products.aspx">机械表</a></li>
+				                        <li><a href="Products.aspx">石英表</a></li>
+				                        <li><a href="Products.aspx">钢带表</a></li>
+				                        <li><a href="Products.aspx">皮带表</a></li>
+                                         <li><a href="Products.aspx">橡胶表带</a></li>
+                                        <li><a href="Products.aspx">尼龙表带</a></li>
+			                        </ul>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_129">
+                                        <b>官网推荐</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_134">
+                                        <b>男士</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_142">
+                                        <b>女士</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_63">
+                                        <b>产品分类</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_150">
+                                        <b>场合</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_158">
+                                        <b>功能</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="is-bordered">
+                                    <a class="inactive shop_161">
+                                        <b>价格区间</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="group group-item-tissot-category">
+                            <ul class="text-uppercase">
+                                <li class="tissot-zone is-bordered">
+                                    <a>
+                                        <b>品牌专区</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="tissot-area-service is-bordered">
+                                    <a>
+                                        <b>客户服务</b>
+                                        <span class="caret"></span>
+                                    </a>
+                                </li>
+                                <li class="search-store">
+                                    <a>查询实体店铺</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container col1-layout">
+            <div class="main">
+                <div class="col-main">
+                    <h1 style="display: none">创建一个新账户</h1>
+                    <div class="account-create container-fluid">
+                        <input type="hidden" name="success_url" value="" />
+                        <input type="hidden" name="error_url" value="" />
+
+                        <div class="login container" style="height:850px;">
+                            <div class="col2-set">
+                                <div class="mobile-register-tab hidden-sm hidden-md hidden-lg clearfix">
+                                    <div class="col-xs-6 register-tab-title active"><span>注册</span></div>
+                                    <div class="col-xs-6 login-tab-title "><span>登录</span></div>
+                                </div>
+                                <div class="col-sm-6 reg">
+                                    <div class="fieldset">
+                                        <div class="hidden-xs">
+                                            <h2>创建一个新账户</h2>
+                                            <p class="form-instructions">通过加入天梭，能为您带来：</p>
+                                            <ul class="benefits">
+                                                <li>
+                                                    <i>&gt;</i>更快速结账过程 </li>
+                                                <li>
+                                                    <i>&gt;</i>拥有多个送货地址 </li>
+                                                <li>
+                                                    <i>&gt;</i>全程跟踪您的订单状态 </li>
+                                            </ul>
+                                            <div class="accountSelect">
+                                                <b class="register-by-email" style="width:100%;border-left:solid 1px #808080;">注册一个新的账号</b>
+                                            </div>
+                                        </div>
+
+                                        <div id="myTabContent" class="tab-content">
+                                            <form  class="scaffold-form" runat="server">
+                                                <input type="hidden" name="form_key" value="aJe8BqSWyyUHTKiP" />
+
+                                                <div class="accountSelect-mb hidden-sm hidden-md hidden-lg">
+                                                    <b class="register-by-phone choose">注册您的天梭账号<span></span></b>
+                                                </div>
+                                                <div id="email-reg" class="mail" style="font-family: 微软雅黑; font-size: 14px; font-weight: bold; color: #FF0000">
+                                                    <ul class="form-list">
+                                                        <li class="fields">
+                                                            <div class="field name-lastname">
+                                                                <label for="lastname"
+                                                                    class="required">姓名<em>*</em></label>
+                                                                <div class="input-box">
+<asp:TextBox ID="txtUserName" runat="server"  class="input-text form-control lastname required-entry"  maxlength="255"></asp:TextBox>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label for="gender">称呼<em>*</em></label>
+                                                            <div class="input-box">
+                                                                 <asp:DropDownList ID="dropSex" runat="server" class="validate-select form-control">
+                                                                                                 <asp:ListItem Value="0">男</asp:ListItem>
+                                                                                                <asp:ListItem Value="1">女</asp:ListItem>
+                                                                 </asp:DropDownList>
+                                                            </div>
+                                       
+                                                        </li>
+                                                        <li class="email-show">
+                                                            <label for="email_address"
+                                                                class="required">电子邮件地址<em>*</em></label>
+                                                            <div class="input-box">
+    
+                                    <asp:TextBox ID="txtUserEmail" runat="server"  autocapitalize="off" type="email"
+                                                                    autocorrect="off" spellcheck="false" class="input-text validate-email required-entry form-control"></asp:TextBox>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="verifyCode telephone-show">
+                                                            <label for="telephone"
+                                                                class="required">手机号码<em>*</em></label>
+                                                            <div class="input-box">
+                                                              
+                                                            <asp:TextBox ID="txtTelPhone" runat="server"   class="input-text validate-phone input_mobile_phone required-entry form-control "
+                                                                    maxlength="11" style="width:100%;" type="tel"></asp:TextBox>
+                                                            </div>
+                                                        </li>
+                                                        <input type="hidden" value="0" name="by_email" id="by_email" />
+
+                                                        <li class="fields">
+                                                            <div class="field">
+                                                                <label for="password"
+                                                                    class="required">登录密码<em>*</em></label>
+                                                                <div class="input-box">
+                                                                <asp:TextBox ID="txtPwd"  type="password" runat="server" class="input-text required-entry validate-password form-control"></asp:TextBox>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="fields">
+                                                            <div class="field">
+                                                                <label for="address"
+                                                                    class="required">家庭住址<em>*</em></label>
+                                                                <div class="input-box">
+                                                                <asp:TextBox ID="txtAddress"  runat="server"  class="input-text form-control lastname required-entry"  maxlength="255"></asp:TextBox>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="required">
+                                                            <label class="hidden-xs"></label>
+                                                            <div class="input-box">
+                                                                *为必填项 </div>
+
+                                                        </li>                                           
+                                                    </ul>
+                                                    <div class="input-box">
+                                                        <asp:Label ID="lblMsg" runat="server" Text="" style="margin-left:200px;"></asp:Label>
+
+                                                    </div>
+                                                </div>
+                                           
+                                                <div class="buttons-set">
+                                                                    <asp:Button ID="btnRegister" runat="server" Text="注册"  class="button" OnClick="btnRegister_Click" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 account">
+                                    <div class="hidden-xs">
+                                        <h2>用户登录</h2>
+                                        <p>如果您已经有天梭账户，请登陆。</p>
+                                        <div class="buttons-set">
+                                            <a title=" 登录" class="button"
+                                                href="Login.aspx">
+                                                登录 </a>
+                                        </div>
+                                    </div>
+                             
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+
+        </div>
+
+
+        <div class="subfooter">
+            <div class="container">
+                <div class="logos col-xs-12 col-md-4">
+                    <img class="tissot" src="static/picture/logo-footer.png">
+                    <img class="swatchgroup" src="static/picture/logo-swatchgroup.png">
+                </div>
+                <div class="shop-infos col-xs-12 col-md-8">
+                    <ul class="pull-right">
+                        <li>
+                            <i class="ic-swiss-flag"></i>
+                            <a>瑞士制造</a>
+                        </li>
+                        <li>
+                            <i class="ic-warranty"></i>
+                            <a>官方保修</a>
+                        </li>
+                        <li>
+                            <i class="pngicon ic-returns"></i>
+                            <a>轻松退换</a>
+                        </li>
+                        <li>
+                            <i class="ic-securized"></i>
+                            <a>信息安全</a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="business-license-text">
+                        <a href="javascript:void(0)" >查看营业执照</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="text-uppercase text-center">
+                    <p>&copy; 21084390120赵增喜</p>
+                    <p class="address_code" style="margin:0">
+                        沪ICP备 16030460号-6<br>
+                        <img src="static/picture/beian_icon.png" alt="公安机关备案" />公安机关备案号 31010102004684
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="back_to_top" style="display: none"></div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>

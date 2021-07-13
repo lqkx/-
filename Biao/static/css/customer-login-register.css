@@ -1,0 +1,359 @@
+﻿select{appearance:none;-moz-appearance:none;-webkit-appearance:none}
+.customer-account-login a.button:active,.customer-account-login a.button:focus,.customer-account-login a.button:hover{color:#fff!important}
+.customer-account-create .account a.button:active,.customer-account-create .account a.button:focus,.customer-account-create .account a.button:hover{color:#fff!important}
+ul.messages .error-msg,ul.messages .error-msg ul li{margin-bottom:0!important;color:#e4141d;padding:2px 0}
+.note-msg,.notice-msg,.success-msg,div[role=main] .error-msg{height:auto!important;padding:0!important}
+ul.messages:after{content:".";visibility:hidden;display:block;height:0;clear:both}
+ul.messages li:after{content:".";visibility:hidden;display:block;height:0;clear:both}
+.messages li ul li{text-align:center}
+.validation-advice{padding-top:5px;color:#e4141d;font-size:12px}
+input.validation-failed{border:1px solid #e4141d!important}
+select.validation-failed{border:1px solid #e4141d!important}
+ul li.verifyCode .validation-advice{clear:left;overflow:hidden}
+.customer-account-login .account-login.login.container{padding:0}
+.customer-account-login .login h2{font-size:20px;margin:20px 0 10px 0}
+.customer-account-login .login .forget{width:100%;max-width:none}
+.customer-account-login .billbord h4{font-size:1rem}
+.customer-account-login .billbord h4 span{width:30px}
+.customer-account-login .login h1{font-size:1.7rem;margin:30px 0 15px} 
+.customer-account-login .login .account{border:none}
+.customer-account-login .login .account ul li{padding-left:3px}
+.customer-account-login .login .account ul li label{display:block;width:auto;text-align:left}
+.customer-account-login .login .account ul li span{display:block;width:auto;text-align:center}
+.customer-account-login .login .account ul li div.input-box{width:100%}
+.customer-account-login .login .buttons-set .button{width:100%;text-align:center}
+.customer-account-login .login .reg ul li{margin:5px 0}
+.customer-account-login .login .reg .button{width:100%;margin:20px 0 55px;max-width:none}
+.customer-account-login .other-login{padding-top:0}
+.customer-account-login .login .forget .forget-text{width:100%;color:#999}
+.customer-account-login .login .reg{width:100%;padding-left:15px}
+.customer-account-login .login .account{width:100%;border-right:none}
+.customer-account-login .other-login p{margin-bottom:24px}
+.customer-account-create .login .forget{width:100%;max-width:none}
+.customer-account-login .info h4 ul{background:#f4e8e8 url(../images/cart-msg-icon.png) no-repeat 0 0;background-size:contain;padding-left:24px;color:#51a770;text-align:center;font-size:12px;margin:0;padding:12px 0}
+.customer-account-login .login .account ul{padding-left:0}
+.customer-account-login .login .account ul li{clear:both;margin:0 0 22px}
+.customer-account-login .login .account ul li label{font-weight:400;width:auto;display:block;text-align:left;margin-right:10px;height:26px;line-height:26px}
+.customer-account-login .login .account ul li label em{display:inline-block;margin-left:5px;font-style:normal}
+.customer-account-login .login .account ul li.forget{margin-bottom:0}
+.customer-account-login .login .account ul li div.input-box{display:block;width:100%;height:35px}
+.customer-account-login .login .account ul li div.input-box input{width:100%;padding:0 0 0 10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.customer-account-login .login .account p input{padding-left:10px;width:70%;height:35px}
+.customer-account-login .login .buttons-set .button{color:#fff;margin-top:30px;background:#e4141d;text-align:center;width:100%;height:40px;line-height:40px;border:none;padding:0}
+.customer-account-login .other-login a{display:inline-block;margin-right:40px}
+.customer-account-login .other-login .other_login_wechat{display:none}
+.customer-account-login .login .reg ul{padding-left:0}
+.customer-account-login .login .reg ul li i{font-style:normal;color:#e4141d;margin-right:5px}
+.account ul li.login-hr{height:0;width:100%;border-bottom:1px solid #ebebeb;margin:30px auto}
+.customer-account-login .glyphicon-ok:before{background:url(../images/login-icon.png) no-repeat 0 0;content:'';width:18px;height:14px;background-size:contain;display:inline-block}
+.customer-account-login .login .forget a{float:right;text-decoration:underline;margin-right:6px;color:#999}
+.customer-account-create .billbord h4{font-size:1rem}
+.customer-account-create .billbord h4 span{width:30px}
+.customer-account-create .login h1{font-size:1.7rem;margin:30px 0 15px}
+.customer-account-create .login .account ul li{padding:2px 0 10px}
+.customer-account-create .login .account ul li.buttons-set{padding:20px 0}
+.customer-account-create .login .account ul li label{display:block;font-weight:400;height:26px;line-height:26px;font-size:10px;display:block;width:100%;text-align:left;margin-bottom:0}
+.customer-account-create .login .account ul li span{display:block;width:auto;text-align:center}
+.customer-account-create .login .account ul li div.input-box{width:100%;height:35px}
+.customer-account-create .login .account ul li div.input-box input{width:100%;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.customer-account-create .login .buttons-set .button{width:100%;text-align:center;color:#fff;background:#e4141d;height:40px;line-height:40px;border:none}
+.customer-account-create .login .reg ul li{margin:0 0 10px}
+.customer-account-create .login .reg .button{width:100%;margin:30px 0 35px;max-width:none}
+.customer-account-create .other-login{padding-top:0}
+.customer-account-create .login .forget .forget-text{width:100%}
+.customer-account-create .login .reg{width:100%;padding-left:15px}
+.customer-account-create .login .account{width:100%;padding-left:15px;border:none;height:auto}
+.customer-account-create .other-login p{margin-bottom:24px}
+.customer-account-create .login h2{margin:20px 0;font-size:20px}
+.customer-account-create .login .account p{margin-bottom:34px}
+.customer-account-create .login .account a.button{margin:20px 0;padding:0}
+.customer-account-create .login .reg ul.benefits li{display:block;font-size:10px;margin:6px 0}
+.customer-account-create .login .reg #myTabContent ul li.control{margin-bottom:0}
+.customer-account-create .login .reg #myTabContent ul li div.input-box{width:100%}
+.customer-account-create .other-login a{display:inline-block;margin-right:40px}
+.customer-account-create .info h4{background:#e0ece3;color:#51a770;text-align:center;font-size:12px;margin:0;padding:12px 0}
+.customer-account-create .login .account p.login-hr{height:0;width:100%;border-bottom:1px solid #ebebeb;margin:30px auto}
+.customer-account-create .login .reg ul{padding-left:0}
+.customer-account-create .login .reg ul li i{font-style:normal;color:#e4141d;margin-right:5px}
+.customer-account-create .login .reg .accountSelect{margin-top:0;overflow:hidden}
+.customer-account-create .login .reg .accountSelect .choose{color:red;border-bottom:none}
+.customer-account-create .login .reg .accountSelect b:last-of-type{border-left:none}
+.customer-account-create .login .reg #myTabContent ul li label em{display:inline-block;margin-left:5px;font-style:normal}
+.customer-account-create .login .reg #myTabContent ul li div.input-box{display:inline-block;width:100%;height:35px}
+.customer-account-create .login .reg #myTabContent ul li.required div.input-box{font-size:10px;color:#999}
+.customer-account-create .login .reg #myTabContent ul li div.input-box input,.customer-account-create .login .reg #myTabContent ul li div.input-box select{width:100%;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.customer-account-create .login .reg #myTabContent ul li label{font-weight:400;margin-right:2%;height:26px;line-height:26px;font-size:10px;display:block;width:100%;text-align:left;margin-bottom:0}
+.customer-account-create .login .reg #myTabContent ul li.verifyCode input[type=button]{font-size:10px;width:35%;float:right;background:#666;color:#fff;border:none;padding:0}
+.customer-account-create .login .reg #myTabContent ul li.verifyCode input[type=tel]{width:65%;float:left;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.customer-account-create .login .reg #myTabContent ul li.control .input-box{clear:both;overflow:hidden}
+.customer-account-create .login .reg #myTabContent ul li.control .input-box .btn-group{width:18px;height:18px;float:left;margin-left:0;margin-right:5px}
+.customer-account-create .login .reg #myTabContent ul li.control .input-box .btn-group span{padding:0;background:url(../images/checkbox-1.jpg) no-repeat 0 0;float:left;width:18px;height:18px;border:0;display:inline-block;margin-right:10px;margin-top:0;margin-bottom:0}
+.customer-account-create .login .reg #myTabContent ul li.control .input-box .btn-group span input{width:100%;height:100%;margin:0;padding:0;left:0}
+.customer-account-create .login .reg #myTabContent ul li.control .input-box .btn-group span.active{background:url(../images/checkbox-2.jpg) no-repeat 0 0}
+.customer-account-create .login .reg #myTabContent ul li.control span a{color:#e4141d;text-decoration:underline}
+.customer-account-create .login .reg #myTabContent ul li.control span{font-size:12px;float:left;width:267px}
+.customer-account-create .login.container{padding:0}
+.customer-account-create .login .reg #myTabContent ul li .email-register-captcha .input-text{width: 100%;padding-left: 10px;height: 35px;border: 1px solid #cdcdcd;color: #000;}
+.customer-account-create .login .email-register-captcha .captcha-input{float:left;width: 62%;}
+.customer-account-create .login .email-register-captcha .captcha-input .validation-advice{padding-left: 37%}
+.customer-account-create .login .email-register-captcha .captcha-image{float:right;width: 36%;margin: 27px 1px 0 0;}
+.customer-account-create .login .email-register-captcha .captcha-image img{max-width: 100%}
+.customer-account-create .login .email-register-captcha .captcha-image .captcha-reload{float:right;width: 18%;max-width:24px;margin-top: 5px;cursor: pointer}
+.customer-account-create .login .email-register-captcha .captcha-image .captcha-img{float:left;width: 80%;}
+.customer-account-create #myTabContent ul li div.input-box input,.customer-account-create #myTabContent ul li div.input-box select{padding:0 0 0 10px;height:100%}
+.customer-account-create .login .reg #myTabContent ul li div.input-box select{background:url(../images/reg-select.png) no-repeat 97% center;padding:0 0 0 10px}
+.customer-account-create .login .buttons-set .button.btn-gray{color:#fff;border-color:#818181;background-color:#818181}
+.customer-account-create .login .reg #myTabContent ul li div.input-box .birthday_box .birthday_select{width:32%;margin-right:2%;float:left}
+.customer-account-create .login .reg #myTabContent ul li div.input-box .birthday_box select{width:100%}
+.other_login_wechat{display:none!important}
+.mobile-register-tab{border-bottom:1px solid #ddd;text-align:center;margin-bottom:10px}
+.mobile-register-tab span{display:inline-block;padding:10px 0}
+.mobile-register-tab .active span{border-bottom:3px solid #000}
+#homepageSlider li a{display:block}
+#homepageSlider li a img{max-width:100%}
+.bx-wrapper{position:relative}
+.homepage-slider .bx-wrapper .bx-pager{position:absolute;bottom:10px;width:100%}
+.customer-account-forgotpassword .go-back{padding:10px 0 0 15px}
+.customer-account-forgotpassword .go-back a{font-size:1.2rem}
+.customer-account-forgotpassword .forgotpassword-content{padding:0 15px}
+.customer-account-forgotpassword .forgotpassword-content .page-title{margin:20px 0 10px}
+.customer-account-forgotpassword .forgotpassword-content #myTabContent p{font-size:1rem}
+.customer-account-forgotpassword #myTabContent ul li label{font-size:1rem;display:block;text-align:left;color:#000;font-weight:400}
+.customer-account-forgotpassword #myTabContent ul li div.input-box{width:100%}
+.customer-account-forgotpassword #myTabContent ul li div.input-box input{width:100%;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.customer-account-forgotpassword .page-title h1{font-size:2rem;font-weight:400;text-align:left}
+.customer-account-forgotpassword .accountSelect{overflow:hidden;margin-top:15px;margin-bottom:15px;width:100%}
+.customer-account-forgotpassword .accountSelect b{border:1px solid #9a9a9a;background:#fff;width:50%;cursor:pointer;display:inline-block;float:left;text-align:center;height:40px;line-height:40px;font-weight:400}
+.customer-account-forgotpassword .accountSelect b:last-of-type{border-left:none}
+.customer-account-forgotpassword .accountSelect .choose{color:red;border-bottom:none}
+.forgotpassword-content ul{padding-left:0}
+.customer-account-forgotpassword em{font-style:normal;display:inline-block;margin-left:5px}
+.customer-account-forgotpassword .buttons-set .button{color:#fff;margin-top:0;background:#e4141d;text-align:center;width:100%;height:40px;line-height:40px;border:none}
+.forgotpassword-content ul li p.required{font-size:1rem;color:#999}
+.forgotpassword-content ul li{overflow:hidden;margin:0 0 17px}
+.customer-account-forgotpassword #myTabContent ul li.verifyCode input[type=button]{font-size:10px;width:35%;float:right;background:#666;color:#fff;border:none;padding:0}
+.customer-account-forgotpassword #myTabContent ul li.verifyCode input[type=text]{width:65%;float:left;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.customer-account-forgotpassword .container{padding:0}
+.restpassword{padding-bottom:40px}
+.restpassword .container{padding:0}
+.restpassword .page-title h1{font-size:2rem;font-weight:400;text-align:left}
+.restpassword ul{margin:0;padding:0}
+.restpassword ul li{margin:0 0 17px}
+.restpassword ul li label{font-size:1rem;display:block;text-align:left;color:#000;font-weight:400;margin-right:2%}
+.restpassword ul li div.input-box{width:100%}
+.restpassword ul li div.input-box input{width:100%;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.restpassword ul li p.required{font-size:1rem;color:#999}
+.restpassword .buttons-set .button{color:#fff;margin-top:0;background:#e4141d;text-align:center;width:100%;height:40px;line-height:40px;border:none}
+.restpassword ul li label em{font-style:normal;margin-left:5px;display:inline-block}
+.customer-account-confirmation .confirmation{padding:40px 24px;text-align:left}
+.customer-account-confirmation .confirmation .page-title{margin:20px 0 15px}
+.customer-account-confirmation .confirmation .page-title h1{font-size:2rem;line-height:2rem;text-align:left;padding:0 4rem}
+.customer-account-confirmation .confirmation #form-validate h2.legend{font-size:1.4rem;padding-bottom:2rem}
+.customer-account-confirmation .confirmation form{padding:0 4rem}
+.customer-account-confirmation .confirmation ul li label{font-size:1rem;display:block;text-align:left;color:#000;font-weight:400;margin-right:2%}
+.customer-account-confirmation .confirmation ul li div.input-box{width:100%}
+.customer-account-confirmation .confirmation ul li div.input-box input{width:100%;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+.customer-account-confirmation .confirmation ul li p.required{padding-top:1rem;font-size:1.2rem;color:#999}
+.customer-account-confirmation .confirmation .buttons-set .button{color:#fff;margin-top:0;background:#e4141d;text-align:center;width:100%;height:35px;line-height:35px;border:none}
+.messagesBlock>ul{width:100%;background:#f4e8e8;padding-top:10px;padding-bottom:10px;font-size:1.2rem;color:#e4161d;text-align:center;line-height:24px}
+@media(max-width:768px){.customer-account-create .login .reg .accountSelect-mb b{position:relative;font-weight:400;cursor:pointer;border-bottom:1px solid #ddd;padding:10px 0;width:100%;display:block}
+  .customer-account-create .login .reg .accountSelect-mb b.choose{border-bottom:0}
+  .accountSelect-mb b span{position:absolute;right:0;top:17px;display:block}
+  .accountSelect-mb b span:after,.accountSelect-mb b span:before{position:relative;display:block;width:16px;height:2px;content:'';-webkit-transition:.5s;background:#000;cursor:pointer;right:3px}
+  .accountSelect-mb b span:after{top:-2px;transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg);right:3px}
+  .accountSelect-mb b.choose span{-webkit-transition:all .5s;-webkit-transform:scale(.75);background:0 0}
+  .accountSelect-mb b.choose span:after{top:-2px;transform:rotate(0);-ms-transform:rotate(0);-moz-transform:rotate(0);-webkit-transform:rotate(0);-o-transform:rotate(0)}
+  .accountSelect-mb b.choose span:after,.accountSelect-mb b.choose span:before{width:18px}
+  #email-reg{border-bottom:1px solid #ddd;padding-bottom:20px}
+  .customer-account-create .login .account{display:none}
+  .customer-account-create .other-login{width:70%;margin:30px auto;border-top:1px solid #ddd;text-align:center}
+  .customer-account-create .other-login a{margin:0 10px}
+  .customer-account-create .login .account p{margin:-10px auto 20px;text-align:center;background:#fff;width:124px}
+  .customer-account-create .login .account ul li.forget{text-align:right;font-size:10px}
+  .customer-account-create .login .account ul li.forget a{text-decoration:underline}
+}
+@media(min-width:768px){
+  /*#email-reg{display:block!important}*/
+  .customer-account-create .login .reg ul li{margin:0 0 17px}
+  .customer-account-create #myTabContent{margin-top:40px}
+  .customer-account-create .login .reg .accountSelect b{font-weight:400;border:1px solid #9a9a9a;background:#fff;width:49%;cursor:pointer;display:inline-block;float:left;text-align:center;height:40px;line-height:40px}
+  .customer-account-create .login .reg #myTabContent ul li.control span{float:left;width:260px}
+  .customer-account-login .account-login.login.container{padding-top:40px;padding-bottom:200px}
+  .customer-account-login .login .account{border-right:1px solid #ebebeb;width:50%}
+  .customer-account-login .login h2{font-size:24px;margin:20px 0 34px 0}
+  .customer-account-login .login .reg ul li{margin:15px 0}
+  .customer-account-login .other-login{display:inline-block;padding-top:30px}
+  .customer-account-login .other-login p{font-size:14px}
+  .customer-account-login .login .reg{width:50%;padding-left:45px}
+  .customer-account-login .login .buttons-set .button{color:#fff;background:#e4141d;padding:0 90px;width:auto;height:40px;line-height:40px;border:none}
+  .customer-account-login .login .account ul li label{font-weight:400;width:85px;display:inline-block;text-align:right;margin-right:10px;float:left;height:26px;line-height:26px}
+  .customer-account-login .login .account ul li label em{display:inline-block;margin-left:5px;font-style:normal}
+  .customer-account-login .login{padding:0}
+  .customer-account-login .login .account ul li div.input-box{width:69%;display:inline-block}
+  .customer-account-login .login .forget .forget-text{width:69%;display:inline-block}
+  .customer-account-login .login .forget a{float:right;text-decoration:underline;margin-right:6px;color:#999}
+  .customer-account-create .login .account{float:right}
+  .customer-account-create .login .reg{float:right;display:block!important}
+  .customer-account-create .login .account ul li div.input-box{width:69%}
+  .customer-account-create .login .forget .forget-text{width:69%}
+  .customer-account-create .container .col2-set{width:100%;clear:both;overflow:hidden}
+  .customer-account-create .login .reg #myTabContent ul li label{width:34%;font-size:10px}
+  .customer-account-create .login .reg #myTabContent ul li div.input-box{width:64%}
+  .customer-account-create .login .reg button{width:64%}
+  .customer-account-create .login .reg ul.benefits li{font-size:10px;margin:0 6px}
+  .customer-account-create .login h2{font-size:24px}
+  .customer-account-create .other-login p{font-size:14px}
+  .customer-account-create .login .reg{width:62%;padding-left:40px;box-sizing:border-box}
+  .customer-account-create .login .account{width:38%}
+  .customer-account-create .login .account .button{width:50%}
+  .customer-account-create .login .reg .accountSelect{margin-top:0}
+  .customer-account-create .login .account{border-right:1px solid #ebebeb;height:596px}
+  .customer-account-create .login .reg ul.benefits li{display:inline-block;font-size:10px;margin:6px 0}
+  .customer-account-create .login .reg #myTabContent ul li label{width:26%;font-size:10px;display:inline-block;float:left;font-weight:400;text-align:right;margin-right:2%;height:26px;line-height:26px}
+  .customer-account-create .login .reg #myTabContent ul li div.input-box{width:70%;display:inline-block;height:35px}
+  .customer-account-create .login .reg #myTabContent ul li{margin:0 0 17px;clear:both}
+  .customer-account-create .login .buttons-set .button{width:64%;margin-left:26%}
+  .customer-account-create .login .reg #myTabContent ul li.required{margin-bottom:0}
+  .customer-account-create .login.container{padding-top:98px;padding-bottom:200px}
+  .customer-account-create .login .account .button{width:50%;text-align:center;padding:0}
+  .customer-account-create .login .account a.button{margin:0 0 20px 0}
+  .customer-account-create .login .email-register-captcha .captcha-input{width: 70%;}
+  .customer-account-create .login .email-register-captcha .captcha-image{float:left;width: 27%;margin: 0}
+  .customer-account-create .login .reg #myTabContent ul li .email-register-captcha label{width: 37%;margin-right:3%;}
+  .customer-account-create .login .reg #myTabContent ul li .email-register-captcha .input-text{width: 58%}
+  .customer-account-forgotpassword .forgotpassword-content{padding:0 60px}
+  .customer-account-forgotpassword .accountSelect{width:60%}
+  .customer-account-forgotpassword .go-back a{font-size:1.4rem}
+  .customer-account-forgotpassword .forgotpassword-content #myTabContent p{font-size:1.4rem;margin-bottom:24px}
+  .customer-account-forgotpassword .accountSelect{margin-bottom:24px}
+  .customer-account-forgotpassword #myTabContent ul li label{font-size:1.4rem;height:35px;line-height:35px;margin-bottom:0;display:inline-block;width:18%;float:left}
+  .customer-account-forgotpassword #myTabContent ul li.verifyCode input[type=button]{font-size:1.4rem}
+  .customer-account-forgotpassword #myTabContent ul li div.input-box{width:54%;display:inline-block;float:left}
+  .customer-account-forgotpassword #myTabContent ul li.password-li .hidden-xs{width:28%;display:inline-block;float:left}
+  .customer-account-forgotpassword #myTabContent ul li.password-li .buttons-set .button{height:35px;line-height:35px}
+  .customer-account-forgotpassword #myTabContent #mobile-reg ul li div.input-box{width:82%}
+  .customer-account-forgotpassword #myTabContent #mobile-reg ul li div.input-box .buttons-set{width:35%}
+  .restpassword .container{padding:0 15px}
+  .restpassword .page-title h1{font-size:2rem;font-weight:400;text-align:left}
+  .restpassword ul li{clear:both;overflow:hidden}
+  .restpassword ul li label{font-size:1.4rem;height:35px;line-height:35px;margin-bottom:0;display:inline-block;width:30%;float:left;text-align:right}
+  .restpassword ul li div.input-box{width:65%;display:inline-block;float:left}
+  .restpassword .buttons-set .button{width:54%}
+  .restpassword .page-title{margin:40px 0 24px}
+  .customer-account-confirmation .confirmation .page-title h1{width:66%;margin:auto;padding:0}
+  .customer-account-confirmation .confirmation form{width:66%;margin:auto;padding:0;position:relative}
+  .customer-account-confirmation .confirmation form .buttons-set{position:absolute;right:0;top:38.2%;width:26%}
+  .customer-account-confirmation .confirmation ul li{clear:both;overflow:hidden}
+  .customer-account-confirmation .confirmation ul li label{margin-right:0;float:left;width:20%;font-size:16px;height:34px;line-height:34px}
+  .customer-account-confirmation .confirmation ul li div.input-box{float:left;width:54%}
+  .customer-account-confirmation .confirmation ul li div.input-box input{border-right:none}
+  .messagesBlock{font-size:14px}
+}
+@media(min-width:992px){.customer-account-create .login .reg #myTabContent ul li.control span{float:left;width:93%}
+  .customer-account-login .container .col2-set{width:100%;margin:auto}
+  .customer-account-create .login .reg #myTabContent ul li label,.customer-account-create .login .reg #myTabContent ul li span,.customer-account-create .login .reg #myTabContent ul li.required div{font-size:12px}
+  .customer-account-create .login .reg #myTabContent ul li div.input-box{width:71%}
+  .customer-account-create .login .reg #myTabContent ul li label{width:24%}
+  .customer-account-create .login .reg{padding-left:40px}
+  .customer-account-create .login .reg #myTabContent ul li.verifyCode input[type=button]{font-size:12px;padding:0}
+  .customer-account-create .login .reg #myTabContent ul li.verifyCode input[type=button]{width:35%}
+  .customer-account-create .login .reg #myTabContent ul li.verifyCode input[type=tel]{width:65%}
+  .customer-account-create .login .reg ul.benefits li{margin:15px 10px 15px 0}
+  .customer-account-login .login .account{width:58%}
+  .customer-account-login .login .reg{width:42%;padding-left:8%}
+  .customer-account-login .login .buttons-set .button{color:#fff;background:#e4141d;padding:0 90px;width:auto;height:40px;line-height:40px;border:none;font-size:16px}
+  .customer-account-create .login .reg #myTabContent ul li span{font-size:16px}
+  .customer-account-login .account-login.login.container{padding-top:98px;padding-bottom:200px}
+  .customer-account-login .login h2{font-size:30px;margin:20px 0 34px 0}
+  .customer-account-login .login .forget a{float:right;text-decoration:underline;margin-right:6px;color:#999}
+  .customer-account-create .container .col2-set{width:90%;margin:auto}
+  .customer-account-create .login h2{font-size:30px;margin:20px 0 34px 0}
+  .customer-account-create .login .account p{margin-bottom:10px}
+  .customer-account-create .login .reg #myTabContent ul li .email-register-captcha label{width: 34.3%;}
+  .customer-account-create .login .reg #myTabContent ul li .email-register-captcha .input-text{width: 60%}
+  .customer-account-forgotpassword .forgotpassword-content{padding:0 16%}
+  .customer-account-forgotpassword #myTabContent ul li.password-li .hidden-xs{float:right;width:26%}
+  .customer-account-forgotpassword .page-title h1{font-size:3rem}
+  .customer-account-forgotpassword .forgotpassword-content #myTabContent p{font-size:1.6rem}
+  .customer-account-forgotpassword #myTabContent ul li label,.customer-account-forgotpassword #myTabContent ul li.verifyCode input[type=button],.customer-account-forgotpassword .accountSelect b,.customer-account-forgotpassword .go-back a{font-size:1.6rem}
+  .restpassword .page-title{max-width:700px;margin:40px auto 24px}
+  .restpassword ul{width:700px;margin:auto}
+  .restpassword .page-title h1{font-size:3rem}
+  .restpassword ul li label{font-size:1.6rem}
+  .restpassword ul li p.required{font-size:1.6rem}
+  .customer-account-confirmation .confirmation .page-title h1{width:740px}
+  .customer-account-confirmation .confirmation form{width:740px}
+  .customer-account-confirmation .confirmation ul li label{width:18%}
+  .customer-account-confirmation .confirmation ul li div.input-box input{border-right:1px solid #cdcdcd}
+}
+@media(min-width:1200px){.customer-account-create .container .col2-set{width:100%;margin:auto}
+  .customer-account-create .login .reg #myTabContent ul li label{font-size:13px}
+  .customer-account-create .login .account{width:42%}
+  .customer-account-create .login .reg{width:58%}
+  .customer-account-login .login .account{width:58%}
+  .customer-account-login .login .reg{width:42%;padding-left:8%}
+  .customer-account-login .login h2{font-size:30px;margin:20px 0 34px 0}
+  .customer-account-login .login .account ul li div.input-box{display:inline-block;width:70%;height:35px}
+  .customer-account-login .login .forget .forget-text{width:72%;display:inline-block}
+  .customer-account-login .login .forget a{float:right;text-decoration:underline;margin-right:6px;color:#999}
+  .customer-account-login .login .buttons-set .button{color:#fff;background:#e4141d;padding:0 90px;width:auto;height:40px;line-height:40px;border:none}
+  .customer-account-login .account-login.login.container{padding-top:98px;padding-bottom:200px}
+  .customer-account-login .billbord{border-bottom:1px solid #dfdfdf;background:#e6e6e6}
+  .customer-account-login .billbord h4{color:#666;text-align:center;font-size:12px}
+  .customer-account-login .billbord h4 span{float:right;width:55px;color:#666;font-size:1rem;cursor:pointer}
+  .customer-account-login .login .reg{width:42%;padding-left:8%}
+  .customer-account-login .login .buttons-set .button{color:#fff;background:#e4141d;padding:0 90px;height:40px;line-height:40px;border:none}
+  .customer-account-create .login .account .button{width:40%}
+  .customer-account-forgotpassword .forgotpassword-content{padding:0 18%}
+}
+@media (min-width:1600px){.customer-account-login .container .col2-set{width:1200px;margin:auto}
+  .customer-account-create .login.container{padding-top:98px;padding-bottom:200px}
+  .customer-account-create .billbord{border-bottom:1px solid #dfdfdf;background:#e6e6e6}
+  .customer-account-create .billbord h4{color:#666;text-align:center;font-size:12px}
+  .customer-account-create .billbord h4 span{float:right;width:55px;color:#666;font-size:1rem;cursor:pointer}
+  .customer-account-create .login h2{font-size:30px;margin:20px 0 34px 0}
+  .customer-account-create .login .reg #myTabContent ul li label{font-weight:400;width:26%;display:inline-block;text-align:right;margin-right:2%;float:left;height:26px;line-height:26px}
+  .customer-account-create .login .reg #myTabContent ul li label em{display:inline-block;margin-left:5px;font-style:normal}
+  .customer-account-create .login .reg #myTabContent ul li{margin:0 0 17px;clear:both}
+  .customer-account-create .login .reg #myTabContent ul li.forget{margin-bottom:0}
+  .customer-account-create .login .reg #myTabContent ul li div.input-box{display:inline-block;width:70%;height:35px}
+  .customer-account-create .login .reg #myTabContent ul li div.input-box input,.customer-account-create .login .reg #myTabContent ul li div.input-box select{width:100%;padding-left:10px;height:35px;border:1px solid #cdcdcd;color:#000}
+  .customer-account-create .login .reg #myTabContent ul li.verifyCode{clear:both;overflow:hidden}
+  .customer-account-create .login .reg #myTabContent ul li.verifyCode input[type=text]{width:70%;float:left}
+  .customer-account-create .login .reg #myTabContent ul li.verifyCode .validation-advice{clear:left}
+  .customer-account-create .login .reg #myTabContent ul li.verifyCode input[type=button]{width:30%;float:right;background:#666;color:#fff;border:none}
+  .customer-account-create .login .reg #myTabContent ul li.required{margin-bottom:0}
+  .customer-account-create .login .reg #myTabContent ul li.required div{font-size:14px;color:#999}
+  .customer-account-create .login .reg p input{padding-left:10px;width:70%;height:35px}
+  .customer-account-create .login .forget .forget-text{width:72%;display:inline-block}
+  .customer-account-create .login .forget a{float:right;text-decoration:underline;margin-right:6px;color:#999}
+  .customer-account-create .login .buttons-set .button{color:#fff;background:#e4141d;height:40px;line-height:40px;border:none}
+  .customer-account-create .login .reg ul{padding-left:0}
+  .customer-account-create .login .reg ul.benefits li{margin:15px 15px 15px 0;display:inline-block}
+  .customer-account-create .login .reg ul li i{font-style:normal;color:#e4141d;margin-right:5px}
+  .customer-account-create .login .reg button{border:none;color:#fff;background:#e4141d;width:65%;margin:0 auto;height:35px;max-width:280px}
+  .customer-account-create .glyphicon-ok:before{background:url(../images/login-icon.png) no-repeat 0 0;content:'';width:18px;height:14px;background-size:contain;display:inline-block}
+  .customer-account-create .other-login{display:inline-block;padding-top:30px}
+  .customer-account-create .other-login p{font-size:16px;color:#666}
+  .customer-account-create .other-login a{display:inline-block;margin-right:40px}
+  .customer-account-create .other-login a:last-child{margin-right:0}
+  .customer-account-create .login .reg{padding-left:80px}
+  .customer-account-create .login .account{height:596px}
+  .customer-account-create .login .account ul{padding-left:0}
+  .customer-account-create .login .account ul li.login-hr{height:0;width:100%;border-bottom:1px solid #ebebeb;margin:30px auto}
+  .customer-account-create .section.padding-top-15{display:none}
+  .customer-account-create .login .reg .accountSelect{overflow:hidden;margin-top:30px}
+  .customer-account-create .login .reg .accountSelect b{border:1px solid #9a9a9a;background:#fff;width:49%;cursor:pointer;display:inline-block;float:left;text-align:center;height:40px;line-height:40px}
+  .customer-account-create .login .reg .accountSelect b:last-of-type{border-left:none}
+  .customer-account-create .login .reg .accountSelect .choose{color:red;border-bottom:none}
+  #myTabContent .mobile{display:none}
+  .customer-account-create .login .account p.login-hr{height:0;width:100%;border-bottom:1px solid #ebebeb;margin:30px auto}
+  .customer-account-create .login .account .button{width:40%;text-align:center;padding:0}
+  .customer-account-create #myTabContent{margin-top:40px}
+  .customer-account-create .container .col2-set{width:1260px;margin:auto;clear:both;overflow:hidden}
+  .customer-account-forgotpassword .forgotpassword-content{padding:0 24%}
+}
+ul.messages{width:100%;background:#e6e6e6;padding-top:10px;padding-bottom:10px;font-size:1.2rem;color:#e4161d;text-align:center;line-height:24px;display:none}
+ul.messages li span{background:url(../images/cart-msg-icon.png) no-repeat 0 center;display:inline-block;font-size:14px;padding:0 0 0 30px}
+ul.messages.success-messages{background:#e6e6e6;color:#666}
+ul.messages.success-messages li span{background:url(../images/cart-msg-icon-success.png) no-repeat 0 center}

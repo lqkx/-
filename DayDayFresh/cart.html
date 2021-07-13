@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天天生鲜-主界面</title>
+	<!-- 定义针对搜索引擎关键词 -->
+	<meta name="keywords" content="生鲜，天天，极速">
+	<link rel="short icon" href="images/logo.png">
+	<!-- 引入外部样式表 -->
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="header_con">
+		<div class="header">
+			<div class="welcom fl"></div>
+			<div class="fr">
+				<div class="login_info fl">
+					欢迎：<em>yc</em>
+				</div>
+				<div class="login_btn fl">
+					<a href="login.html">登录</a>
+					<span>|</span>
+					<a href="register.html">注册</a>
+				</div>
+				<div class="user_link fl">
+					<span>|</span>
+					<a href="#">用户中心</a>
+					<span>|</span>
+					<a href="#">我的购物车</a>
+					<span>|</span>
+					<a href="#">我的</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 搜索框 -->
+	<div class="search_bar clearfix">
+		<a href="index.html" class="logo fl">
+			<img src="images/logo.png" alt="">
+		</a>
+		<div class="search_con fl">
+			<form action="">
+				<input type="text" placeholder="搜索商品" class="input_text fl" name="key_words">
+				<input type="button" value="搜索" class="input_btn fr">
+			</form>
+		</div>
+		<div class="guest_cart fr">
+			<a href="#" class="cart_name fl">
+				我的购物车
+			</a>
+			<div class="goods_count fl" id="show_count">1</div>
+		</div>
+	</div>
+	<!-- 购物车主体 -->
+	<div class="cart_con">
+		<h2 class="total_count">全部商品<em>1</em></h2>
+		<div class="cart_list_th clearfix">
+			<ul>
+				<li class="col01">商品名称</li>
+				<li class="col02">商品单位</li>
+				<li class="col03">商品价格(元)</li>
+				<li class="col04">数量</li>
+				<li class="col05">小计</li>
+				<li class="col06">操作</li>
+			</ul>
+		</div>
+		<div class="cart_list_td clearfix">
+			<ul>
+				<li class="col01"><input type="checkbox checked "></li>
+				<li class="col02"><img src="images/goods/goods003.jpg" alt=""></li>
+				<li class="col03">牛奶草莓<br><em>16.80元/500g</em></li>
+				<li class="col04">500g</li>
+				<li class="col05">16.80</li>
+				<li class="col06">
+					<div class="num_add">
+						<a href="javascript:lose()" class="minus fl"></a>
+						<input type="text" value="1" class="num_show">
+						<a href="javascript:add()" class="add fl"></a>
+					</div>
+				</li>
+				<li class="col07">16.80</li>
+				<li class="col08"><a href="javascript:;">删除</a></li>
+			</ul>
+		</div>
+		<div class="setElements">
+			<ul>
+				<li class="col01"><input type="checkbox" checked></li>
+				<li class="col02"><label for="all">全选</label></li>
+				<li class="col03">
+					合计(不含运费):
+					<span></span>
+					<em>16.80</em>元<br>共计<b>1</b>件商品
+				</li>
+				<li class="col04"><a href="javascript:;">去结算</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 尾部版权 -->
+	<div class="footer">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘广告</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+			<p>CopyRight &copy;2021 衡阳源辰信息科技有限公司 All Rights Reservered</p>	
+			<p>电话：0734-8355998 湘ICP备1015987号</p>
+		</div>
+		
+	</div>
+</body>
+</html>
